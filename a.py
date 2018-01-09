@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 count = 0
 while (count < 9):
    print ('The count is:', count)
@@ -19,5 +21,5 @@ fadsfasdfasd
 """
 word = 'word'
 sentence = "这是一个句子。"
-paragraph = """这是一个段落。
+paragraph = """这是一个段落。00
 包含了多个语句"""
