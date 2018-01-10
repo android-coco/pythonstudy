@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 a = input('请输入A：')
 b = input('请输入B：')
 c = input('请输入C：')
