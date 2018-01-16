@@ -24,8 +24,35 @@ def cf(x):
 			m[i] = int(x // i)
 			x = x % i
 	return str(m[25]) + "个25美分 " + str(m[10]) + "个10美分  " + str(m[5])+ "个5美分  " + str(m[1]) + "个1美分"
-	
+
 x = float(input("请输入美元数(元): ")) * 100
 print(cf(x))
+# 请使用迭代查找一个list中最小和最大值，并返回一个tuple
+def findMinAndMax(l):
+	max,min = 0,0
+	if isinstance(l, Iterable):
+		if len(l) == 0:
+			return (None,None)
+		min = l[0] # 假设第一个为最小值
+		for i in l:
+			if max < i:
+				max = i
+			if min > i:
+				min = i
+		return (min,max)
+	else:
+		return (None,None)
+# 测试
+if findMinAndMax([]) != (None, None):
+    print('测试失败!')
+elif findMinAndMax([7]) != (7, 7):
+    print('测试失败!')
+elif findMinAndMax([7, 1]) != (1, 7):
+    print('测试失败!')
+elif findMinAndMax([7, 1, 3, 9, 5]) != (1, 9):
+    print('测试失败!')
+else:
+    print('测试成功!')
+	
 
 
