@@ -8,7 +8,7 @@ def power(x):
 def power1(x,n):
 	s = 1
 	while n > 0:
-		n -= 1
+		n -= 1 
 		s *= x
 	return s
 print(power(2))

@@ -15,7 +15,7 @@ print([m + n for m in 'ABC' for n in 'XYZ'])
 
 # 列出当前目录下的所有文件和目录名，可以通过一行代码实现：
 import os
-print([d for d in os.listdir('.')])
+print([d for d in os.listdir('.')]) 
 
 # 列表生成式也可以使用两个变量来生成list：
 d = {'x': 'A', 'y': 'B', 'z': 'C' }

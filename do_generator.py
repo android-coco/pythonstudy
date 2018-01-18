@@ -11,13 +11,13 @@ for n in g:
 	print(n)
 #所以，我们创建了一个generator后，基本上永远不会调用next()，
 #而是通过for循环来迭代它，并且不需要关心StopIteration的错误。
-
+ 
 def fib(max):
 	n,a,b = 0,0,1
 	while n < max:
 		print(b)
 		a,b = b,a+b
-		n = n+1
+		n = n+1 
 	return 'done'
 print(fib(6))
 
