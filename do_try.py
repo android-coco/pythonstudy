@@ -55,3 +55,4 @@ def foo1(s):
 	return 10 / n
 
 foo1('0')
+
