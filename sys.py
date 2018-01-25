@@ -13,4 +13,4 @@ if is_py2:
 if is_py3:
 	print('python3')
 # 平台信息
-print(sys.platform)
+print(sys.platform) 
