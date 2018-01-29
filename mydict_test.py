@@ -20,7 +20,7 @@ class TestDict(unittest.TestCase):
 		self.assertEqual(d.b,'test')
 		self.assertTrue(isinstance(d,dict))
 
- 
+
 	def test_key(self):
 		d = Dict()
 		d['key'] = 'value'
@@ -52,4 +52,3 @@ class TestDict(unittest.TestCase):
 # if __name__ == '__main__':
 # 	unittest.main()
 #python mydict_test
-   
