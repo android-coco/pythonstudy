@@ -98,3 +98,6 @@ print('\033[4;33m' + 'yellow' + '\033[0m')
 print('\033[1;30;41m' + 'black' + '\033[0m')
 # 白底黑字
 print('\033[1;30;47m' + 'white' + '\033[0m')
+
+print('aaaaaa',end='')
+print('bbbbbb')
