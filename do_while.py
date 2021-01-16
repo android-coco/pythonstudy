@@ -7,10 +7,12 @@ while n > 0:
 	n = n-2
 print(sum)
 
+
+
 # 10以内的奇数
 n = 0
 while n < 10:
 	n = n + 1
 	if n % 2 == 0:
-		continue
+	 continue
 	print(n)

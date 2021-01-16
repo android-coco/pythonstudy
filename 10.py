@@ -9,4 +9,3 @@ result = int(num1) + int(num2)
 
 #4.输出结果
 print("%s + %s = %d"%(num1,num2,result))
-
